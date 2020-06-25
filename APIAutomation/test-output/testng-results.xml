@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="9105" started-at="2020-06-23T14:47:19 IST" finished-at="2020-06-23T14:47:28 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="9105" started-at="2020-06-23T14:47:19 IST" finished-at="2020-06-23T14:47:28 IST">
+      <class name="tests.rest.TC_01BankLogin">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:tests.rest.TC_01BankLogin@75881071]" name="beforeSuite" is-config="true" duration-ms="3528" started-at="2020-06-23T14:47:16 IST" finished-at="2020-06-23T14:47:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="setValues()[pri:0, instance:tests.rest.TC_01BankLogin@75881071]" name="setValues" is-config="true" duration-ms="0" started-at="2020-06-23T14:47:19 IST" depends-on-methods="lib.rest.PreAndTest.beforeTest" finished-at="2020-06-23T14:47:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setValues -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:tests.rest.TC_01BankLogin@75881071]" name="beforeTest" is-config="true" duration-ms="0" started-at="2020-06-23T14:47:19 IST" finished-at="2020-06-23T14:47:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:tests.rest.TC_01BankLogin@75881071]" name="beforeClass" is-config="true" duration-ms="0" started-at="2020-06-23T14:47:19 IST" finished-at="2020-06-23T14:47:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:tests.rest.TC_01BankLogin@75881071]" name="beforeMethod" is-config="true" duration-ms="20" started-at="2020-06-23T14:47:20 IST" finished-at="2020-06-23T14:47:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="userlogin(java.io.File)[pri:0, instance:tests.rest.TC_01BankLogin@75881071]" name="userlogin" duration-ms="8890" started-at="2020-06-23T14:47:20 IST" data-provider="fetchData" finished-at="2020-06-23T14:47:28 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[.\data\TC001.JSON]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userlogin -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:tests.rest.TC_01BankLogin@75881071]" name="afterClass" is-config="true" duration-ms="16" started-at="2020-06-23T14:47:28 IST" finished-at="2020-06-23T14:47:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.rest.TC_01BankLogin@75881071]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-06-23T14:47:28 IST" finished-at="2020-06-23T14:47:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:tests.rest.TC_01BankLogin@75881071]" name="afterTest" is-config="true" duration-ms="0" started-at="2020-06-23T14:47:28 IST" finished-at="2020-06-23T14:47:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:tests.rest.TC_01BankLogin@75881071]" name="afterSuite" is-config="true" duration-ms="1447" started-at="2020-06-23T14:47:29 IST" finished-at="2020-06-23T14:47:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- tests.rest.TC_01BankLogin -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
