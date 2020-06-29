@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="29471" started-at="2020-06-29T17:33:36 IST" finished-at="2020-06-29T17:34:06 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="29471" started-at="2020-06-29T17:33:36 IST" finished-at="2020-06-29T17:34:06 IST">
+      <class name="tests.rest.ScenarioOne_Newsletter2go">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:tests.rest.ScenarioOne_Newsletter2go@1fc2b765]" name="beforeSuite" is-config="true" duration-ms="4906" started-at="2020-06-29T17:33:32 IST" finished-at="2020-06-29T17:33:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:tests.rest.ScenarioOne_Newsletter2go@1fc2b765]" name="beforeTest" is-config="true" duration-ms="0" started-at="2020-06-29T17:33:37 IST" finished-at="2020-06-29T17:33:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="setValues()[pri:0, instance:tests.rest.ScenarioOne_Newsletter2go@1fc2b765]" name="setValues" is-config="true" duration-ms="0" started-at="2020-06-29T17:33:37 IST" depends-on-methods="lib.rest.PreAndTest.beforeTest" finished-at="2020-06-29T17:33:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setValues -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:tests.rest.ScenarioOne_Newsletter2go@1fc2b765]" name="beforeClass" is-config="true" duration-ms="15" started-at="2020-06-29T17:33:37 IST" finished-at="2020-06-29T17:33:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:tests.rest.ScenarioOne_Newsletter2go@1fc2b765]" name="beforeMethod" is-config="true" duration-ms="31" started-at="2020-06-29T17:33:37 IST" finished-at="2020-06-29T17:33:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="newsletterScenarioOne(java.io.File)[pri:0, instance:tests.rest.ScenarioOne_Newsletter2go@1fc2b765]" name="newsletterScenarioOne" duration-ms="29296" started-at="2020-06-29T17:33:37 IST" data-provider="fetchData" finished-at="2020-06-29T17:34:06 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[.\data\CreateNewList.JSON]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newsletterScenarioOne -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.rest.ScenarioOne_Newsletter2go@1fc2b765]" name="afterMethod" is-config="true" duration-ms="4" started-at="2020-06-29T17:34:06 IST" finished-at="2020-06-29T17:34:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:tests.rest.ScenarioOne_Newsletter2go@1fc2b765]" name="afterClass" is-config="true" duration-ms="0" started-at="2020-06-29T17:34:06 IST" finished-at="2020-06-29T17:34:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:tests.rest.ScenarioOne_Newsletter2go@1fc2b765]" name="afterTest" is-config="true" duration-ms="4" started-at="2020-06-29T17:34:06 IST" finished-at="2020-06-29T17:34:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:tests.rest.ScenarioOne_Newsletter2go@1fc2b765]" name="afterSuite" is-config="true" duration-ms="1609" started-at="2020-06-29T17:34:06 IST" finished-at="2020-06-29T17:34:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- tests.rest.ScenarioOne_Newsletter2go -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
