@@ -49,6 +49,8 @@ public class ScenarioOne_Newsletter2go extends RESTAssuredBase {
 		}
 
 		Assert.assertEquals(idExist, true);
+		
+		
 
 		// Create New Segment in the Created List
 		setLogs();
